@@ -10,7 +10,7 @@ There has been a drastic increase in the rate of fake notes in the market :chart
 
 > It is difficult for human-eye to recognize a fake note because they are created with great accuracy to look alike a genuine note. Security aspects of banknotes have to be considered and security features are to be introduced to mitigate fake currency. Hence, there is a dire need in banks and ATM machines :credit_card: to implement a system that classifies a note as genuine or fake.
 
-> > *Source of Information: A research paper on Analysis of Banknote Authentication System using Machine Learning Techniques by Sumeet Shahani, Aisa Jagiasi and Priya RL at International Journal of Computer Applications (0975 – 8887) Volume 179 – No.20, February 2018)*
+*Source of Information: A research paper on Analysis of Banknote Authentication System using Machine Learning Techniques by Sumeet Shahani, Aisa Jagiasi and Priya RL at International Journal of Computer Applications (0975 – 8887) Volume 179 – No.20, February 2018)*
 
 # Objective
 To come up with an efficient deep learning model that accurately predicts if a note is genuine or not.
