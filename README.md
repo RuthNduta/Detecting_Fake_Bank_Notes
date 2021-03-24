@@ -10,7 +10,7 @@ There has been a drastic increase in the rate of fake notes in the market :chart
 
 > It is difficult for human-eye to recognize a fake note because they are created with great accuracy to look alike a genuine note. Security aspects of banknotes have to be considered and security features are to be introduced to mitigate fake currency. Hence, there is a dire need in banks and ATM machines :credit_card: to implement a system that classifies a note as genuine or fake.
 
-*Source of Information: A research paper on Analysis of Banknote Authentication System using Machine Learning Techniques by Sumeet Shahani, Aisa Jagiasi and Priya RL at International Journal of Computer Applications (0975 – 8887) Volume 179 – No.20, February 2018)*
+> > *Source of Information: A research paper on Analysis of Banknote Authentication System using Machine Learning Techniques by Sumeet Shahani, Aisa Jagiasi and Priya RL at International Journal of Computer Applications (0975 – 8887) Volume 179 – No.20, February 2018)*
 
 # Objective
 To come up with an efficient deep learning model that accurately predicts if a note is genuine or not.
@@ -18,6 +18,16 @@ To come up with an efficient deep learning model that accurately predicts if a n
 # Evaluation Criteria
 Submissions are evaluated using Accuracy Score. The loss function used is the binary cross entropy.
 
+# About the Data
+Data was extracted from images that were taken for the evaluation of an authentication procedure for banknotes -- genuine and forged banknote-like specimens. For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. Due to the object lens and distance to the investigated object grey-scale pictures with a resolution of about 660 dpi were gained. Wavelet Transform tool was used to extract features from images.
+[Dataset]("https://raw.githubusercontent.com/dphi-official/Datasets/master/bank_note_data/training_set_label.csv" )
+
+# Data Description
+> - VWTI: Variance of Wavelet Transformed Image
+> - SWTI: Skewness of Wavelet Transformed Image
+> - CWTI: Curtosis of Wavelet Transformed Image
+> - EI: Entropy of Image
+> - Class: Class (1: genuine, 0: forged)
 
 
 
